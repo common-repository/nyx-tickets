@@ -1,0 +1,361 @@
+body .nyx-w-full {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.nyx-grid {
+    display: grid !important;
+}
+
+.nyx-block {
+    display: block !important;
+}
+
+.nyx-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+.nyx-grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+.nyx-grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+.nyx-col-span-1 {
+    grid-column: span 1/span 1 !important;
+}
+
+.nyx-col-span-2 {
+    grid-column: span 2/span 2 !important;
+}
+
+.nyx-col-span-3 {
+    grid-column: span 3/span 3 !important;
+}
+
+.nyx-col-span-4 {
+    grid-column: span 4/span 4 !important;
+}
+
+.nyx-gap-4 {
+    gap: 1rem !important;
+    grid-gap: 1rem !important;
+}
+
+body .nyx-mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+body .nyx-mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+body .nyx-mb-4 {
+    margin-bottom: 1rem !important;
+}
+
+body .nyx-mt-4 {
+    margin-top: 1rem !important;
+}
+
+
+body .nyx-mb-8 {
+    margin-bottom: 2rem !important;
+}
+
+body .nyx-mt-8 {
+    margin-top: 2rem !important;
+}
+
+.nyx-bg-white {
+    background-color: #fff !important;
+}
+
+.nyx-rounded {
+    border-radius: 5px !important;
+}
+
+.nyx-p-2 {
+    padding: 0.5rem !important;
+}
+
+.nyx-p-8 {
+    padding: 2rem !important;
+}
+
+.nyx-logo {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50% !important;
+    border: 1px solid #4c515a;
+}
+
+.nyx-logo img {
+    width: 100% !important;
+    border-radius: 50% !important;
+}
+
+.nyx-bg-transparent {
+    background-color: transparent !important;
+}
+
+.nyx-button {
+    border: 1px solid #00d6d8 !important;
+    outline: none !important;
+    padding: 11px 20px !important;
+    border-radius: 30px !important;
+}
+
+.nyx-half-width {
+    width: 50% !important;
+    margin: 0 auto !important;
+}
+
+#nyx-ticket-admin-boxes .sp-original-input-container {
+    width: 100% !important;
+}
+
+.nyx-buy-tickets {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.nyx-no-events {
+    text-align: center;
+    display: block;
+}
+
+.show-more-events {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*** Compact view ***/
+
+.nyx-compact-event-view .nyx-event .nyx-event-container {
+    display: flex !important;
+}
+
+.nyx-compact-event-view .nyx-event {
+    padding: 10px !important;
+}
+
+.nyx-compact-event-view .nyx-event-info {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.nyx-compact-event-view .nyx-event-host-name {
+    font-size: 14px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    line-height: 0 !important;
+}
+
+.nyx-compact-event-view .nyx-event-info-footer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-top: 20px !important;
+}
+
+.nyx-compact-event-view .nyx-buy-tickets {
+    margin-left: 10px !important;
+    padding: 10px !important;
+    text-decoration: none !important;
+}
+
+body .nyx-compact-event-view .nyx-event .ticket-sales-ended {
+    margin-left: 10px !important;
+}
+
+
+.nyx-compact-event-view .nyx-event-cover-photo {
+    max-width: 200px !important;
+}
+
+
+.nyx-compact-event-view .nyx-event-info .nyx-event-title {
+    font-size: 20px !important;
+    margin: 0 !important;
+    margin-left: 10px !important;
+}
+
+.nyx-compact-event-view .nyx-event-info .nyx-event-date {
+    font-size: 20px !important;
+    margin: 0 !important;
+    margin-left: 10px !important;
+}
+
+.nyx-compact-event-view .nyx-event-info-footer {
+    margin-top: auto !important;
+}
+
+.nyx-compact-event-view .nyx-event-info-footer .nyx-host-info {
+    margin-left: auto !important;
+}
+
+
+/*** Full view ***/
+
+.nyx-full-event-view .nyx-title-and-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nyx-full-event-view .nyx-title-and-date .nyx-event-title {
+    max-width: 60%;
+}
+
+.nyx-full-event-view .nyx-event-info {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 10px !important;
+}
+
+.nyx-full-event-view .nyx-event-info-footer {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-top: 20px !important;
+}
+
+.nyx-full-event-view .nyx-event-info-footer .nyx-host-info {
+    display: flex !important;
+    align-items: center !important;
+    margin-left: auto !important;
+}
+
+.nyx-full-event-view .nyx-event-info-footer .nyx-host-info .nyx-event-host-name {
+    margin-left: 10px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.nyx-full-event-view .nyx-buy-tickets {
+    padding: 10px !important;
+    text-decoration: none !important;
+}
+
+.nyx-full-event-view .nyx-event-info .nyx-event-desc {
+    font-size: 13px !important;
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+    white-space: pre-wrap !important;
+}
+
+.nyx-full-event-view .nyx-event-info .nyx-event-title {
+    font-size: 22px !important;
+    margin: 0 !important;
+}
+
+.nyx-full-event-view .nyx-event-info .nyx-event-date {
+    margin: 0 !important;
+    line-height: 0 !important;
+}
+
+body .nyx-event .ticket-sales-ended {
+    margin: 0 !important;
+    line-height: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nyx-compact-event-view .nyx-event-info .nyx-event-title {
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+
+    .nyx-compact-event-view .nyx-event-info .nyx-event-date {
+        margin-left: 0px !important;
+    }
+
+    .nyx-compact-event-view .nyx-event-info-footer {
+        margin-top: 20px !important;
+    }
+
+    .nyx-compact-event-view .nyx-event .nyx-event-container {
+        flex-direction: column !important;
+    }
+
+    .nyx-compact-event-view .nyx-event-cover-photo {
+        max-width: 100% !important;
+    }
+
+    .nyx-compact-event-view .nyx-compact-event-view .nyx-event .nyx-event-container {
+        flex-direction: column !important;
+    }
+
+    .nyx-compact-event-view .nyx-buy-tickets {
+        margin-left: 0px !important;
+    }
+
+    .nyx-compact-event-view .nyx-event-info h2 {
+        margin-left: 0px !important;
+        margin-top: 10px !important;
+    }
+
+    body .nyx-compact-event-view .nyx-event .ticket-sales-ended {
+        margin-left: 0px !important;
+    }
+
+    body .nyx-compact-event-view .nyx-event .nyx-event-date {
+        font-size: 15px !important;
+    }
+
+
+    .nyx-full-event-view .nyx-event-info-footer {
+        align-items: unset !important;
+        flex-direction: column !important;
+    }
+
+    .nyx-full-event-view .nyx-buy-tickets {
+        text-align: center !important;
+    }
+
+
+    .nyx-full-event-view .nyx-event-info-footer .nyx-host-info {
+        justify-content: center !important;
+        margin-top: 20px !important;
+        margin-left: unset !important;
+
+    }
+
+    body .nyx-full-event-view .nyx-title-and-date {
+        display: flex !important;
+        align-items: unset !important;
+        justify-content: unset !important;
+        flex-direction: column !important;
+    }
+
+    body .nyx-full-event-view .nyx-event .nyx-title-and-date .nyx-event-date {
+        margin-top: 15px !important;
+        margin-bottom: 10px !important;
+        font-size: 15px !important;
+    }
+
+
+    body .nyx-full-event-view .nyx-title-and-date .nyx-event-title {
+        max-width: 100% !important;
+    }
+
+    body .nyx-full-event-view .nyx-event .ticket-sales-ended {
+        text-align: center;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+
+}
+
+.nyx-event-info h1:not(.site-title):before,
+.nyx-event-info h2:before {
+    content: '' !important;
+    display: none !important;
+}
